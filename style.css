@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #eef2f7;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.correct {
+  background: #4CAF50 !important;
+  color: white;
+}
+
+.wrong {
+  background: #f44336 !important;
+  color: white;
+}
